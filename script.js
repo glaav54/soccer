@@ -73,7 +73,7 @@ sampleOnClick = (id) => {
     <p>2:15 pm - 3:45 pm EDT<br>Arrive by 1:45 pm</p>
     <a href="https://goo.gl/maps/4nfPKqU3JKsExLPr8" target="_blank">
     Fruit St. Turf Field 1</a>
-    <p><em>Home uniform</em></p>
+    <p><em>Away uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: Clinic home game</h4>
