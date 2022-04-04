@@ -73,7 +73,7 @@ sampleOnClick = (id) => {
     <p>2:15 pm - 3:45 pm EDT<br>Arrive by 1:45 pm</p>
     <a href="https://goo.gl/maps/4nfPKqU3JKsExLPr8" target="_blank">
     Fruit St. Turf Field 1</a>
-    <p><em>Away uniform</em></p>
+    <p><em>White uniform (Bring red)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: Clinic home game</h4>
@@ -93,7 +93,7 @@ sampleOnClick = (id) => {
     <p>7:00 pm - 8:30 pm EDT<br>Arrive by 6:15 pm</p>
     <a href="https://goo.gl/maps/pqGC8ACoRAg1UbQZ9" target="_blank">
     33 Cape Road, Mendon, MA, USA - Field 2</a>
-    <p><em>Pink uniform</em></p>
+    <p><em>Pink uniform (Bring white)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
