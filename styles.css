@@ -1,0 +1,211 @@
+@use postcss-preset-env;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*[class*="roboto-"]:before {
+  font-family: 'Roboto', sans-serif;
+}
+/* ---------- GENERAL ---------- */
+
+/* changing appearance of the info block depending on the device capabilities */
+@media (max-width: 510px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+body {
+  background-image: url('soccer_field.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #eee;
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  min-height: 100vh;
+  place-items: center;
+}
+
+a {
+  color: #87cefa;
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1.25em;
+	margin: .25em 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin: .33em 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	width: 510px;
+  
+  /* margin: auto; */
+}
+
+.info-text {
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.info-text h3 {
+  color: #eee;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #323232;
+  opacity: 0.5;
+  width: 510px;
+  opacity: 0.9;
+  /* top / right / bottom / left */
+  padding:20px 20px 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+.card h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.card .box  {
+  width: 49%;
+  vertical-align: top;
+  /* top / right / bottom / left */
+  padding: 10px 10px 10px 10px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: black;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #eee;
+}
+
+.card .box a {
+  color: blue;
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+	text-align: center;
+}
+
+.calendar header {
+	position: relative;
+}
+
+.calendar h3 {
+  color: #eee;
+	text-transform: uppercase;
+}
+
+.calendar thead {
+  color: #eee;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.calendar tbody {
+	color: #cbd1d2;
+}
+
+.calendar tbody td:hover {
+	border: 2px solid #00addf;
+}
+
+.calendar td {
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	width: 4em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	color: #7c8a95;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+	border: 2px solid #cbd1d2;
+}
+
+.current-day {
+	background: #00addf;
+	color: #f9f9f9;
+}
+
+.event {
+	cursor: pointer;
+	position: relative;
+}
+
+.event:after {
+	background: #00addf;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
+}
+
+.event.current-day:after {
+	background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+	border: 2px solid #cbd1d2;
+	border-radius: 50%;
+	color: #cbd1d2;
+  height: 2em;
+	font-size: .75em;
+	line-height: 2em;
+	margin: -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+	background: #cbd1d2;
+	/* color: #f9f9f9; */
+  color: black;
+}
+
+.btn-prev {
+	left: 6em;
+}
+
+.btn-next {
+	right: 6em;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Soccer calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="calendar">
+        <header>
+          <h3>April</h3>
+          <a class="btn-prev roboto-angle-left" href="#"></a>
+          <a class="btn-next roboto-angle-right" href="#"></a>
+        </header>
+        <table>
+          <thead>
+            <tr>
+              <td>Mo</td>
+              <td>Tu</td>
+              <td>We</td>
+              <td>Th</td>
+              <td>Fr</td>
+              <td>Sa</td>
+              <td>Su</td>
+            </tr>
+          </thead>
+            <tbody>
+            <tr>
+              <td class="prev-month">28</td>
+              <td class="prev-month">29</td>
+              <td class="prev-month">30</td>
+              <td class="prev-month">31</td>
+              <td id="01">1</td>
+              <td id="02">2</td>
+              <td id="03">3</td>
+            </tr>
+            <tr>
+              <td id="04" class="event" onclick="sampleOnClick(id)">4</td>
+              <td id="05">5</td>
+              <td id="06" class="event" onclick="sampleOnClick(id)">6</td>
+              <td id="07" class="event" onclick="sampleOnClick(id)">7</td>
+              <td id="08" class="event" onclick="sampleOnClick(id)">8</td>
+              <td id="09" class="event" onclick="sampleOnClick(id)">9</td>
+              <td id="10" class="event" onclick="sampleOnClick(id)">10</td>
+            </tr>
+            <tr>
+              <td id="11">11</td>
+              <td id="12">12</td>
+              <td id="13">13</td>
+              <td id="14">14</td>
+              <td id="15">15</td>
+              <td id="16">16</td>
+              <td id="17">17</td>
+            </tr>
+            <tr>
+              <td id="18">18</td>
+              <td id="19">19</td>
+              <td id="20">20</td>
+              <td id="21">21</td>
+              <td id="22">22</td>
+              <td id="23">23</td>
+              <td id="24">24</td>
+            </tr>
+            <tr>
+              <td id="25">25</td>
+              <td id="26">26</td>
+              <td id="27">27</td>
+              <td id="28">28</td>
+              <td id="29">29</td>
+              <td id="30">30</td>
+              <td class="next-month">1</td>
+            </tr>
+            <tr>
+              <td class="next-month">2</td>
+              <td class="next-month">3</td>
+              <td class="next-month">4</td>
+              <td class="next-month">5</td>
+              <td class="next-month">6</td>
+              <td class="next-month">7</td>
+              <td class="next-month">8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- end calendar -->
+    </div>
+
+    <div class="card">
+      <h4 id="gameday">Games by date:</h4>
+      
+      <div id="maxim" class="box">
+        Maxim: No events
+      </div>
+      <div id="daniel" class="box">
+        Daniel: No events
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="info-text">
+        <h4>Soccer websites:</h4>
+        <a href="https://app.sportngin.com/teams/11e92b5c-e654-e47c-a3b8-0edb4a964800" target="_blank">Maxim Juventus</a>
+        |
+        <a href="https://bays.org/bays/team/view/45357" target="_blank">Maxim Town Games</a>
+        |
+        <a href="http://www.hollistonsoccer.org/schedules/k-clinic-schedule/" target="_blank">Daniel Clinic</a>
+      </div>
+    </div>
+      
+    
+  </div> <!-- end container -->
+</body>
+<script src="script.js"></script>
+</html>
