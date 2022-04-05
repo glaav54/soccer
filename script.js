@@ -20,14 +20,23 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '05') {
+    document.getElementById("gameday").innerHTML = `Tuesday, April 5 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
   if (id === '06') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 6 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Running practice</h4>
-    <p> ??? 4:00 pm - 5:00 pm EDT ???</p>
-    <a href="https://goo.gl/maps/SezUUmavg7KN8QJ49" target="_blank">
-    ??? Blair Square ???</a>
-    <p><em>Running outfit</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
@@ -94,6 +103,21 @@ sampleOnClick = (id) => {
     <a href="https://goo.gl/maps/pqGC8ACoRAg1UbQZ9" target="_blank">
     33 Cape Road, Mendon, MA, USA - Field 2</a>
     <p><em>Pink uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '13') {
+    document.getElementById("gameday").innerHTML = `Wednesday, April 13 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Running practice</h4>
+    <p> TBD </p>
+    <a href="https://goo.gl/maps/SezUUmavg7KN8QJ49" target="_blank">
+    TBD</a>
+    <p><em>Running outfit</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
