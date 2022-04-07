@@ -110,6 +110,33 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '11') {
+    document.getElementById("gameday").innerHTML = `Monday, April 11 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '12') {
+    document.getElementById("gameday").innerHTML = `Tuesday, April 12 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
   if (id === '13') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 13 2022`
     document.getElementById("maxim").innerHTML = `
@@ -125,7 +152,67 @@ sampleOnClick = (id) => {
     `
   }
   
+  if (id === '14') {
+    document.getElementById("gameday").innerHTML = `Thursday, April 14 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '15') {
+    document.getElementById("gameday").innerHTML = `Friday, April 15 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '16') {
+    document.getElementById("gameday").innerHTML = `Saturday, April 16 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town home game</h4>
+    <p>Holliston B7/8 Dufault vs Natick Blazers</p>
+    <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Red uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic home game</h4>
+    <p>Clinic 14 - Isabelle vs Clinic 6 - Santos</p>
+    <p>11:30 am - 12:30 am EDT<br>Arrive by 11:15 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Red uniform</em></p>
+    `
+  }
   
+  if (id === '17') {
+    document.getElementById("gameday").innerHTML = `Sunday, April 17 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
     
 
   
