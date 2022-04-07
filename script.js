@@ -195,7 +195,7 @@ sampleOnClick = (id) => {
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: Clinic home game</h4>
     <p>Clinic 14 - Isabelle vs Clinic 6 - Santos</p>
-    <p>11:30 am - 12:30 am EDT<br>Arrive by 11:15 am</p>
+    <p>11:30 am - 12:30 pm EDT<br>Arrive by 11:15 am</p>
     <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
     Stoddard Park, Holliston, MA</a>
     <p><em>Red uniform</em></p>
