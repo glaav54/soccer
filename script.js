@@ -140,11 +140,12 @@ sampleOnClick = (id) => {
   if (id === '13') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 13 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Running practice</h4>
-    <p> TBD </p>
-    <a href="https://goo.gl/maps/SezUUmavg7KN8QJ49" target="_blank">
-    TBD</a>
-    <p><em>Running outfit</em></p>
+    <h4>Maxim: Town away game</h4>
+    <p>Holliston B7/8 Dufault at Hopkinton Hillers (B8)</p>
+    <p>6:00 pm - 7:30 pm EDT<br>Arrive by 5:30 pm</p>
+    <a href="https://goo.gl/maps/4nfPKqU3JKsExLPr8" target="_blank">
+    Fruit St. Turf Field 1</a>
+    <p><em>White uniform (Bring red)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
