@@ -165,6 +165,20 @@ table {
 	position: relative;
 }
 
+.calendar .prev-month-event,
+.calendar .next-month-event {
+	color: #7c8a95;
+  cursor: pointer;
+	position: relative;
+}
+
+.calendar .prev-month-event:hover,
+.calendar .next-month-event:hover {
+	cursor: pointer;
+	position: relative;
+  border: 2px solid #cbd1d2;
+}
+
 .event:after {
 	background: #00addf;
 	border-radius: 50%;
@@ -180,6 +194,20 @@ table {
 
 .event.current-day:after {
 	background: #f9f9f9;
+}
+
+.calendar .prev-month-event:after,
+.calendar .next-month-event:after {
+	background: #00addf;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
 }
 
 .btn-prev,
