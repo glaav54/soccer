@@ -1,7 +1,7 @@
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var todayElement = document.getElementById(dd);
-// todayElement.classList.add("current-day");
+todayElement.classList.add("current-day");
 
 sampleOnClick = (id) => {
 

@@ -171,8 +171,9 @@ table {
 }
 
 .current-day {
-	background: #00addf;
-	color: #f9f9f9;
+	/* background: #00addf; */
+	color: green;
+  font-size: 18px;
 }
 
 .event {
@@ -207,9 +208,9 @@ table {
 	width: .5em;
 }
 
-.event.current-day:after {
+/* .event.current-day:after {
 	background: #f9f9f9;
-}
+} */
 
 .calendar .prev-month-event:after,
 .calendar .next-month-event:after {
@@ -282,6 +283,9 @@ table {
     font-size: 11px;
   }
   
+  .current-day {
+    font-size: 13px;
+  }
     
   .info {
     text-align: center;
