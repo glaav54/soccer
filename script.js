@@ -1,11 +1,54 @@
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
-var todayElement = document.getElementById(dd);
-todayElement.classList.add("current-day");
+// January gives 00
+var mm = String(today.getMonth() + 1).padStart(2, '0');
+var mmdd = mm + dd;
+var mm2022 = String(today.getMonth() + 1).padStart(2, '0') + '2022';
+var todayElement = document.getElementById(mmdd);
+if (document.getElementById(mm2022)) {
+  todayElement.classList.add("current-day");
+}
+
 
 sampleOnClick = (id) => {
 
-  if (id === '04') {
+  if (id === '0401') {
+    document.getElementById("gameday").innerHTML = `Friday, April 1 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0402') {
+    document.getElementById("gameday").innerHTML = `Saturday, April 2 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0403') {
+    document.getElementById("gameday").innerHTML = `Sunday, April 3 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0404') {
     document.getElementById("gameday").innerHTML = `Monday, April 4 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -20,7 +63,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '05') {
+  if (id === '0405') {
     document.getElementById("gameday").innerHTML = `Tuesday, April 5 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: No events</h4>
@@ -32,7 +75,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '06') {
+  if (id === '0406') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 6 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: No events</h4>
@@ -44,7 +87,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '07') {
+  if (id === '0407') {
     document.getElementById("gameday").innerHTML = `Thursday, April 7 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -59,7 +102,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '08') {
+  if (id === '0408') {
     document.getElementById("gameday").innerHTML = `Friday, April 8 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -74,7 +117,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '09') {
+  if (id === '0409') {
     document.getElementById("gameday").innerHTML = `Saturday, April 9 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town away game</h4>
@@ -94,7 +137,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '10') {
+  if (id === '0410') {
     document.getElementById("gameday").innerHTML = `Sunday, April 10 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus away game</h4>
@@ -110,7 +153,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '11') {
+  if (id === '0411') {
     document.getElementById("gameday").innerHTML = `Monday, April 11 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -125,7 +168,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '12') {
+  if (id === '0412') {
     document.getElementById("gameday").innerHTML = `Tuesday, April 12 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: No events</h4>
@@ -137,7 +180,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '13') {
+  if (id === '0413') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 13 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town away game</h4>
@@ -153,7 +196,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '14') {
+  if (id === '0414') {
     document.getElementById("gameday").innerHTML = `Thursday, April 14 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -168,7 +211,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '15') {
+  if (id === '0415') {
     document.getElementById("gameday").innerHTML = `Friday, April 15 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -183,7 +226,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '16') {
+  if (id === '0416') {
     document.getElementById("gameday").innerHTML = `Saturday, April 16 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town home game</h4>
@@ -203,7 +246,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '17') {
+  if (id === '0417') {
     document.getElementById("gameday").innerHTML = `Sunday, April 17 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: No events</h4>
@@ -215,7 +258,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '18') {
+  if (id === '0418') {
     document.getElementById("gameday").innerHTML = `Monday, April 18 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -230,7 +273,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '19') {
+  if (id === '0419') {
     document.getElementById("gameday").innerHTML = `Tuesday, April 19 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: No events</h4>
@@ -242,7 +285,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '20') {
+  if (id === '0420') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 20 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Running Clinic (optional)</h4>
@@ -255,7 +298,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '21') {
+  if (id === '0421') {
     document.getElementById("gameday").innerHTML = `Thursday, April 21 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -270,7 +313,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '22') {
+  if (id === '0422') {
     document.getElementById("gameday").innerHTML = `Friday, April 22 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -285,7 +328,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '23') {
+  if (id === '0423') {
     document.getElementById("gameday").innerHTML = `Saturday, April 23 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town away game</h4>
@@ -314,7 +357,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '24') {
+  if (id === '0424') {
     document.getElementById("gameday").innerHTML = `Sunday, April 24 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus away game</h4>
@@ -330,7 +373,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '25') {
+  if (id === '0425') {
     document.getElementById("gameday").innerHTML = `Monday, April 25 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -345,7 +388,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '26') {
+  if (id === '0426') {
     document.getElementById("gameday").innerHTML = `Tuesday, April 26 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -360,7 +403,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '27') {
+  if (id === '0427') {
     document.getElementById("gameday").innerHTML = `Wednesday, April 27 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Running Clinic (optional)</h4>
@@ -373,7 +416,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === '28') {
+  if (id === '0428') {
     document.getElementById("gameday").innerHTML = `Thursday, April 28 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -388,7 +431,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '29') {
+  if (id === '0429') {
     document.getElementById("gameday").innerHTML = `Friday, April 29 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -403,7 +446,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === '30') {
+  if (id === '0430') {
     document.getElementById("gameday").innerHTML = `Saturday, April 30 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town away game</h4>
@@ -423,7 +466,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === 'next1') {
+  if (id === '0501') {
     document.getElementById("gameday").innerHTML = `Sunday, May 1 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus away game</h4>
@@ -439,7 +482,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === 'next2') {
+  if (id === '0502') {
     document.getElementById("gameday").innerHTML = `Monday, May 2 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -454,7 +497,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === 'next3') {
+  if (id === '0503') {
     document.getElementById("gameday").innerHTML = `Tuesday, May 3 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -469,7 +512,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === 'next4') {
+  if (id === '0504') {
     document.getElementById("gameday").innerHTML = `Wednesday, May 4 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Running Clinic (optional)</h4>
@@ -482,7 +525,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === 'next5') {
+  if (id === '0505') {
     document.getElementById("gameday").innerHTML = `Thursday, May 5 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus practice</h4>
@@ -497,7 +540,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === 'next6') {
+  if (id === '0506') {
     document.getElementById("gameday").innerHTML = `Friday, May 6 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
@@ -512,7 +555,7 @@ sampleOnClick = (id) => {
     `
   }
 
-  if (id === 'next7') {
+  if (id === '0507') {
     document.getElementById("gameday").innerHTML = `Saturday, May 7 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town home game</h4>
@@ -532,7 +575,7 @@ sampleOnClick = (id) => {
     `
   }
   
-  if (id === 'next8') {
+  if (id === '0508') {
     document.getElementById("gameday").innerHTML = `Sunday, May 8 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus home game</h4>

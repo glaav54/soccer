@@ -171,9 +171,21 @@ table {
 }
 
 .current-day {
-	/* background: #00addf; */
-	color: green;
-  font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+
+.current-day:after {
+	background: green;
+	border-radius: 50%;
+	top: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: .25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
 }
 
 .event {
@@ -240,6 +252,20 @@ table {
 	width: 2em;
 }
 
+.btn-prev-disabled,
+.btn-next-disabled {
+	border: 2px solid #7c8a95;
+	border-radius: 50%;
+	color: #7c8a95;
+  height: 2em;
+	font-size: .75em;
+	line-height: 2em;
+	margin: -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+}
+
 .btn-prev:hover,
 .btn-next:hover {
 	background: #cbd1d2;
@@ -247,11 +273,13 @@ table {
   color: black;
 }
 
-.btn-prev {
+.btn-prev,
+.btn-prev-disabled {
 	left: 6em;
 }
 
-.btn-next {
+.btn-next,
+.btn-next-disabled {
 	right: 6em;
 }
 
