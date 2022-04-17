@@ -8,7 +8,7 @@
 /* ---------- GENERAL ---------- */
 
 /* changing appearance of the info block depending on the device capabilities */
-@media (max-width: 510px) {
+@media (max-width: 300px) {
   .info {
     text-align: center;
     display: block;
@@ -25,10 +25,11 @@ body {
   color: #eee;
   display: grid;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   min-height: 100vh;
   place-items: center;
+  
 }
 
 a {
@@ -58,9 +59,9 @@ table {
 }
 
 .container {
-	width: 510px;
+	width: 380px;
   
-  /* margin: auto; */
+  margin: auto;
 }
 
 .info-text {
@@ -75,11 +76,10 @@ table {
 
 .card {
   background: #323232;
-  opacity: 0.5;
-  width: 510px;
+  width: 380px;
   opacity: 0.9;
   /* top / right / bottom / left */
-  padding:20px 20px 15px 20px;
+  padding:20px 0px 15px 0px;
   margin-bottom: 20px;
   border-radius: 16px;
   align-items: center;
@@ -96,7 +96,7 @@ table {
   /* top / right / bottom / left */
   padding: 10px 10px 10px 10px;
   border-radius: 16px;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
   box-sizing: border-box;
   display: inline-block;
