@@ -9,7 +9,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Monday, April 4 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:15 pm EDT</p>
+    <p>5:00 pm - 6:00 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
@@ -63,7 +63,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, April 8 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:00 pm EDT</p>
+    <p>5:00 pm - 6:15 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
@@ -172,7 +172,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, April 15 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:00 pm EDT</p>
+    <p>5:00 pm - 6:15 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
@@ -274,7 +274,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, April 22 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:00 pm EDT</p>
+    <p>5:00 pm - 6:15 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
@@ -392,7 +392,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, April 29 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:00 pm EDT</p>
+    <p>5:00 pm - 6:15 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
@@ -501,7 +501,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, May 6 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Town practice</h4>
-    <p>5:00 pm - 6:00 pm EDT</p>
+    <p>5:00 pm - 6:15 pm EDT</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
     <p><em>Practice uniform</em></p>
