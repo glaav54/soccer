@@ -1,31 +1,30 @@
 @use postcss-preset-env;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
 
 *[class*="roboto-"]:before {
   font-family: 'Roboto', sans-serif;
 }
-/* ---------- GENERAL ---------- */
 
-/* changing appearance of the info block depending on the device capabilities */
-@media (max-width: 300px) {
-  .info {
-    text-align: center;
-    display: block;
-  }
+*[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
 
+/* ---------- GENERAL ---------- */
+
 body {
-  /* background-image: url('soccer_field.jpg');
-  background-size: auto;
+  background-image: url('soccer_field.jpg');
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
-  background-color: #212121;
+  background-attachment: fixed;
+  /* background-color: #212121; */
   color: #eee;
   display: grid;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
+  margin: 0;
   font-weight: normal;
   min-height: 100vh;
   place-items: center;
@@ -59,9 +58,7 @@ table {
 }
 
 .container {
-	width: 380px;
-  
-  margin: auto;
+	width: 510px;
 }
 
 .info-text {
@@ -69,17 +66,33 @@ table {
   margin-bottom: 20px;
 }
 
-.info-text h3 {
+.info-text h4 {
   color: #eee;
+  margin-bottom: 10px;
+}
+
+.card-calendar {
+  background: #323232;
+  width: 510px;
+  opacity: 0.9;
+  /* top / right / bottom / left */
+  padding:20px 0px 50px 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+.card-calendar h3 {
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
 .card {
   background: #323232;
-  width: 380px;
+  width: 510px;
   opacity: 0.9;
   /* top / right / bottom / left */
-  padding:20px 0px 15px 0px;
+  padding:20px 0px 20px 20px;
   margin-bottom: 20px;
   border-radius: 16px;
   align-items: center;
@@ -91,7 +104,7 @@ table {
 }
 
 .card .box  {
-  width: 49%;
+  width: 48%;
   vertical-align: top;
   /* top / right / bottom / left */
   padding: 10px 10px 10px 10px;
@@ -238,4 +251,71 @@ table {
 
 .btn-next {
 	right: 6em;
+}
+
+/* changing appearance of the info block depending on the device capabilities */
+@media only screen and (max-width:1280px) {
+  body {
+    background-image: url('soccer_field.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #212121; */
+    color: #eee;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    margin: 0;
+    font-weight: normal;
+    min-height: 100vh;
+    place-items: center;
+    
+  }
+
+  .container {
+    width: 360px;
+    padding: 0;
+  }
+  
+  .card-calendar {
+    background: #323232;
+    width: 360px;
+    opacity: 0.9;
+    /* top / right / bottom / left */
+    padding:20px 0px 30px 0px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    align-items: center;
+  }
+  
+  .card {
+    background: #323232;
+    width: 340px;
+    opacity: 0.9;
+    /* top / right / bottom / left */
+    padding:20px 0px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    align-items: center;
+  }
+  
+  .card .box  {
+    width: 47%;
+    vertical-align: top;
+    /* top / right / bottom / left */
+    padding: 10px 10px 10px 10px;
+    border-radius: 16px;
+    font-size: 11px;
+    color: black;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #eee;
+  }
+  
+    
+  .info {
+    text-align: center;
+    display: block;
+  }
 }
