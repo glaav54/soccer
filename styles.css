@@ -176,7 +176,7 @@ table {
 }
 
 .current-day::before {
-	background: red;
+	background: #df3200;
 	border-radius: 50%;
 	top: .5em;
 	display: block;
@@ -226,7 +226,7 @@ table {
 
 .calendar .prev-month-event::after,
 .calendar .next-month-event::after {
-	background: #00addf;
+	background: #7c8a95;
 	border-radius: 50%;
 	bottom: .5em;
 	display: block;
