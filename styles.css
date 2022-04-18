@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(https://weloveiconfonts.com/api/?family=fontawesome);
 
-*[class*="roboto-"]:before {
+*[class*="roboto-"]::before {
   font-family: 'Roboto', sans-serif;
 }
 
-*[class*="fontawesome-"]:before {
+*[class*="fontawesome-"]::before {
   font-family: 'FontAwesome', sans-serif;
 }
 
@@ -175,15 +175,15 @@ table {
 	position: relative;
 }
 
-.current-day:after {
-	background: green;
+.current-day::before {
+	background: red;
 	border-radius: 50%;
 	top: .5em;
 	display: block;
 	content: '';
 	height: .5em;
 	left: 50%;
-	margin: .25em 0 0 -.25em;
+	margin: 0 0 0 -.25em;
 	position: absolute;
 	width: .5em;
 }
@@ -207,7 +207,7 @@ table {
   border: 2px solid #cbd1d2;
 }
 
-.event:after {
+.event::after {
 	background: #00addf;
 	border-radius: 50%;
 	bottom: .5em;
@@ -220,12 +220,12 @@ table {
 	width: .5em;
 }
 
-/* .event.current-day:after {
+/* .event.current-day::after {
 	background: #f9f9f9;
 } */
 
-.calendar .prev-month-event:after,
-.calendar .next-month-event:after {
+.calendar .prev-month-event::after,
+.calendar .next-month-event::after {
 	background: #00addf;
 	border-radius: 50%;
 	bottom: .5em;
