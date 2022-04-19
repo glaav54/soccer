@@ -301,11 +301,8 @@ sampleOnClick = (id) => {
   if (id === '0421') {
     document.getElementById("gameday").innerHTML = `Thursday, April 21 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Juventus practice</h4>
-    <p>5:00 pm - 6:15 pm EDT</p>
-    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
-    2450 Main Street, South Walpole, MA, USA</a>
-    <p><em>Gray practice uniform</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
@@ -360,13 +357,17 @@ sampleOnClick = (id) => {
   if (id === '0424') {
     document.getElementById("gameday").innerHTML = `Sunday, April 24 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Juventus away game</h4>
-    <p>Premier 2008 Boys at Juventus Academy Boston Cen 2008 Boys Azzuro</p>
-    <p>2:30 pm - 4:00 pm EDT<br>Arrive by 2:00 pm</p>
-    <a href="https://goo.gl/maps/CDFJ2H8LL8jmY8ur9" target="_blank">
-    Fore Kicks II Indoor & Outdoor Sports Complex, Forest Street, Marlborough, MA, USA - 8</a>
-    <p><em>Pink uniform (Bring white)</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
+    // document.getElementById("maxim").innerHTML = `
+    // <h4>Maxim: Juventus away game</h4>
+    // <p>Premier 2008 Boys at Juventus Academy Boston Cen 2008 Boys Azzuro</p>
+    // <p>2:30 pm - 4:00 pm EDT<br>Arrive by 2:00 pm</p>
+    // <a href="https://goo.gl/maps/CDFJ2H8LL8jmY8ur9" target="_blank">
+    // Fore Kicks II Indoor & Outdoor Sports Complex, Forest Street, Marlborough, MA, USA - 8</a>
+    // <p><em>Pink uniform (Bring white)</em></p>
+    // `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
     <p></p>
