@@ -595,7 +595,7 @@ sampleOnClick = (id) => {
   if (id === '0527') {
     document.getElementById("gameday").innerHTML = `Friday, May 27 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
     <p>TBD</p>
     <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
     Epping, NH</a>
@@ -619,7 +619,7 @@ sampleOnClick = (id) => {
     
     <hr>
 
-    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
     <p>TBD</p>
     <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
     Epping, NH</a>
@@ -638,7 +638,7 @@ sampleOnClick = (id) => {
   if (id === '0529') {
     document.getElementById("gameday").innerHTML = `Sunday, May 29 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
     <p>TBD</p>
     <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
     Epping, NH</a>
