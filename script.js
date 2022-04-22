@@ -590,7 +590,65 @@ sampleOnClick = (id) => {
     <h4>Daniel: No events</h4>
     <p></p>
     `
-  }  
+  }
+  
+  if (id === '0527') {
+    document.getElementById("gameday").innerHTML = `Friday, May 27 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <p>TBD</p>
+    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
+    Epping, NH</a>
+    <p><em>TBD</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0528') {
+    document.getElementById("gameday").innerHTML = `Saturday, May 28 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town home game</h4>
+    <p>Holliston B7/8 Dufault vs Milford-Hopedale Hawks</p>
+    <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Red uniform (Bring white)</em></p>
+    
+    <hr>
+
+    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <p>TBD</p>
+    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
+    Epping, NH</a>
+    <p><em>TBD</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic away game</h4>
+    <p>Clinic 14 - Isabelle at Clinic 4 - Wagner</p>
+    <p>9:00 am - 10:00 am EDT<br>Arrive by 8:45 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>White uniform</em></p>
+    `
+  }
+
+  if (id === '0529') {
+    document.getElementById("gameday").innerHTML = `Sunday, May 29 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Seacost Memorial Weekend Tournament</h4>
+    <p>TBD</p>
+    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
+    Epping, NH</a>
+    <p><em>TBD</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
 
   
 }
