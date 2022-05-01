@@ -591,6 +591,282 @@ sampleOnClick = (id) => {
     <p></p>
     `
   }
+
+  if (id === '0509') {
+    document.getElementById("gameday").innerHTML = `Monday, May 9 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0510') {
+    document.getElementById("gameday").innerHTML = `Tuesday, May 10 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>6:00 pm - 7:20 pm EDT</p>
+    <a href="https://goo.gl/maps/bvqp8ebQkYKVTi6e7" target="_blank">
+    Fore Kicks Sports Complex and Golf Course, Pine Street, Norfolk, MA, USA - TURF</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0511') {
+    document.getElementById("gameday").innerHTML = `Wednesday, May 11 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Running Clinic (optional)</h4>
+    <p>TBD</p>
+    <p><em>Running outfit</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0512') {
+    document.getElementById("gameday").innerHTML = `Thursday, May 12 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0513') {
+    document.getElementById("gameday").innerHTML = `Friday, May 13 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0514') {
+    document.getElementById("gameday").innerHTML = `Saturday, May 14 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town home game</h4>
+    <p>Holliston B7/8 Dufault vs Hopkinton Hillers (B8)</p>
+    <p>2:30 pm - 4:00 pm EDT<br>Arrive by 2:00 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Red uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic away game</h4>
+    <p>Clinic 14 - Isabelle at Clinic 12 - Lindros</p>
+    <p>9:00 am - 10:00 am EDT<br>Arrive by 8:45 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>White uniform</em></p>
+    `
+  }
+  
+  if (id === '0515') {
+    document.getElementById("gameday").innerHTML = `Sunday, May 15 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus away game</h4>
+    <p>Premier 2008 Boys at Juventus Academy Boston GB 2008 Boys</p>
+    <p>9:45 am - 11:15 am EDT<br>Arrive by 3:15 am</p>
+    <a href="https://goo.gl/maps/DYby4YQSSMBXLttL7" target="_blank">
+    Veterans Fields, Forest Street, Waltham, MA, USA - #2</a>
+    <p><em>Pink uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0516') {
+    document.getElementById("gameday").innerHTML = `Monday, May 16 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0517') {
+    document.getElementById("gameday").innerHTML = `Tuesday, May 17 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>6:00 pm - 7:20 pm EDT</p>
+    <a href="https://goo.gl/maps/bvqp8ebQkYKVTi6e7" target="_blank">
+    Fore Kicks Sports Complex and Golf Course, Pine Street, Norfolk, MA, USA - TURF</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0518') {
+    document.getElementById("gameday").innerHTML = `Wednesday, May 18 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Running Clinic (optional)</h4>
+    <p>TBD</p>
+    <p><em>Running outfit</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0519') {
+    document.getElementById("gameday").innerHTML = `Thursday, May 19 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0520') {
+    document.getElementById("gameday").innerHTML = `Friday, May 20 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0521') {
+    document.getElementById("gameday").innerHTML = `Saturday, May 21 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town away game</h4>
+    <p>Holliston B7/8 Dufault at Natick Blazers</p>
+    <p>10:35 am - 12:05 pm EDT<br>Arrive by 10:00 am</p>
+    <a href="https://goo.gl/maps/g9aNdANMapAkaMJZ8" target="_blank">
+    Elm Bank Field 1</a>
+    <p><em>White uniform (Bring red)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic home game</h4>
+    <p>Clinic 14 - Isabelle vs Clinic 5 - Fowler</p>
+    <p>9:00 am - 10:00 am EDT<br>Arrive by 8:45 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Red uniform</em></p>
+    `
+  }
+  
+  if (id === '0522') {
+    document.getElementById("gameday").innerHTML = `Sunday, May 22 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus home game</h4>
+    <p>Premier 2008 Boys vs NEFC World Class Soccer Academy Boys 2008</p>
+    <p>12:00 pm - 1:30 pm EDT<br>Arrive by 11:30 am</p>
+    <a href="https://goo.gl" target="_blank">
+    TBD</a>
+    <p><em>White uniform (Bring pink)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0523') {
+    document.getElementById("gameday").innerHTML = `Monday, May 23 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0524') {
+    document.getElementById("gameday").innerHTML = `Tuesday, May 24 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>6:00 pm - 7:20 pm EDT</p>
+    <a href="https://goo.gl/maps/bvqp8ebQkYKVTi6e7" target="_blank">
+    Fore Kicks Sports Complex and Golf Course, Pine Street, Norfolk, MA, USA - TURF</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0525') {
+    document.getElementById("gameday").innerHTML = `Wednesday, May 25 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Running Clinic (optional)</h4>
+    <p>TBD</p>
+    <p><em>Running outfit</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0526') {
+    document.getElementById("gameday").innerHTML = `Thursday, May 26 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
   
   if (id === '0527') {
     document.getElementById("gameday").innerHTML = `Friday, May 27 2022`
@@ -643,6 +919,36 @@ sampleOnClick = (id) => {
     <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
     Epping, NH</a>
     <p><em>TBD</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0530') {
+    document.getElementById("gameday").innerHTML = `Monday, May 30 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
+    <p>TBD</p>
+    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
+    Epping, NH</a>
+    <p><em>TBD</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0531') {
+    document.getElementById("gameday").innerHTML = `Tuesday, May 31 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>6:00 pm - 7:20 pm EDT</p>
+    <a href="https://goo.gl/maps/bvqp8ebQkYKVTi6e7" target="_blank">
+    Fore Kicks Sports Complex and Golf Course, Pine Street, Norfolk, MA, USA - TURF</a>
+    <p><em>Gray practice uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
