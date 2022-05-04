@@ -580,7 +580,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Sunday, May 8 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus home game</h4>
-    <p>Premier 2008 Boys vs Fellsway Wanderers FC Boys 2008</p>
+    <p>Premier 2008 Boys vs Juventus Academy Boston MW 2009 Boys</p>
     <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
