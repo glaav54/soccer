@@ -887,21 +887,24 @@ sampleOnClick = (id) => {
   if (id === '0528') {
     document.getElementById("gameday").innerHTML = `Saturday, May 28 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Town home game</h4>
-    <p>Holliston B7/8 Dufault vs Milford-Hopedale Hawks</p>
-    <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
-    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
-    Marshall field 2</a>
-    <p><em>Red uniform (Bring white)</em></p>
+    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
+    <p>Premier 2008 Boys vs Maine Lightning Soccer Club 2008 Boys</p>
+    <p>3:30 pm - 5:00 pm EDT<br>Arrive by 3:00 pm</p>
+    <a href="https://goo.gl/maps/R8pjpMmHTbMRpy9i8" target="_blank">
+    Epping High School - Field # 1</a>
+    <p><em>White uniform (Bring pink)</em></p>
     
     <hr>
-
+    
     <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
-    <p>TBD</p>
-    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
-    Epping, NH</a>
-    <p><em>TBD</em></p>
+    <p>Premier 2008 Boys at Seacoast United Maine SC 2008B Premier Volt</p>
+    <p>6:00 pm - 7:30 pm EDT<br>Arrive by 5:30 pm</p>
+    <a href="https://goo.gl/maps/R8pjpMmHTbMRpy9i8" target="_blank">
+    Epping High School - Field # 2</a>
+    <p><em>Pink uniform (Bring white)</em></p>
     `
+       
+   
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: Clinic away game</h4>
     <p>Clinic 14 - Isabelle at Clinic 4 - Wagner</p>
