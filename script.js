@@ -933,11 +933,8 @@ sampleOnClick = (id) => {
   if (id === '0530') {
     document.getElementById("gameday").innerHTML = `Monday, May 30 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
-    <p>TBD</p>
-    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
-    Epping, NH</a>
-    <p><em>TBD</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
