@@ -704,12 +704,12 @@ sampleOnClick = (id) => {
   if (id === '0516') {
     document.getElementById("gameday").innerHTML = `Monday, May 16 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Town home game</h4>
+    <h4>Maxim: Town cup game</h4>
     <p>Holliston B7/8 Dufault vs North Attleboro</p>
     <p>6:00 pm - 7:30 pm EDT<br>Arrive by 5:30 pm</p>
     <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
     Marshall field 2</a>
-    <p><em>Red uniform (Bring white)</em></p>
+    <p><em>White uniform (Bring Red)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
