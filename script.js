@@ -690,7 +690,7 @@ sampleOnClick = (id) => {
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: Juventus away game</h4>
     <p>Premier 2008 Boys at Juventus Academy Boston GB 2008 Boys</p>
-    <p>9:45 am - 11:15 am EDT<br>Arrive by 8:15 am</p>
+    <p>9:45 am - 11:15 am EDT<br>Arrive by 9:15 am</p>
     <a href="https://goo.gl/maps/DYby4YQSSMBXLttL7" target="_blank">
     Veterans Fields, Forest Street, Waltham, MA, USA - #2</a>
     <p><em>Pink uniform (Bring white)</em></p>
