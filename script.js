@@ -899,8 +899,8 @@ sampleOnClick = (id) => {
     <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
     <p>Premier 2008 Boys at Seacoast United Maine SC 2008B Premier Volt</p>
     <p>6:00 pm - 7:30 pm EDT<br>Arrive by 5:30 pm</p>
-    <a href="https://goo.gl/maps/R8pjpMmHTbMRpy9i8" target="_blank">
-    Epping High School - Field # 2</a>
+    <a href="https://goo.gl/maps/M6msZWQqrDnuLmA47" target="_blank">
+    Derryfield School - Turf</a>
     <p><em>Pink uniform (Bring white)</em></p>
     `
        
