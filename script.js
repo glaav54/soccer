@@ -781,8 +781,8 @@ sampleOnClick = (id) => {
     <h4>Maxim: Town away game</h4>
     <p>Holliston B7/8 Dufault at Natick Blazers</p>
     <p>10:35 am - 12:05 pm EDT<br>Arrive by 10:00 am</p>
-    <a href="https://goo.gl/maps/g9aNdANMapAkaMJZ8" target="_blank">
-    Elm Bank Field 1</a>
+    <a href="https://goo.gl/maps/cwbC41j96VKTYyhL8" target="_blank">
+    Kennedy Middle School, Natick, MA</a>
     <p><em>White uniform (Bring red)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
