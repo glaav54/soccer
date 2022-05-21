@@ -844,9 +844,8 @@ sampleOnClick = (id) => {
   if (id === '0525') {
     document.getElementById("gameday").innerHTML = `Wednesday, May 25 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Running Clinic (optional)</h4>
-    <p>TBD</p>
-    <p><em>Running outfit</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
@@ -872,11 +871,8 @@ sampleOnClick = (id) => {
   if (id === '0527') {
     document.getElementById("gameday").innerHTML = `Friday, May 27 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: Seacoast Memorial Weekend Tournament</h4>
-    <p>TBD</p>
-    <a href="https://goo.gl/maps/EKQ8QqN1EFAKZGBfA" target="_blank">
-    Epping, NH</a>
-    <p><em>TBD</em></p>
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
