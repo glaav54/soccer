@@ -801,8 +801,8 @@ sampleOnClick = (id) => {
     <h4>Maxim: Juventus home game</h4>
     <p>Premier 2008 Boys vs NEFC World Class Soccer Academy Boys 2008</p>
     <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
-    <a href="https://goo.gl/maps/LvxNkY2xaQVduoWz5" target="_blank">
-    88 Summer St, Medway, MA 02053, USA</a>
+    <a href="https://goo.gl/maps/zHPHaXA74Q7YgBEv9" target="_blank">
+    99 Kimberly Dr, Medway, MA 02053</a>
     <p><em>White uniform (Bring pink)</em></p>
     `
     document.getElementById("daniel").innerHTML = `
