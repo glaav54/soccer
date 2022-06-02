@@ -1040,5 +1040,115 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '0606') {
+    document.getElementById("gameday").innerHTML = `Monday, June 6 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:00 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0607') {
+    document.getElementById("gameday").innerHTML = `Tuesday, june 7 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Tryout</h4>
+    <p>6:30 pm - 7:30 pm EDT</p>
+    <a href="https://goo.gl/maps/vjEzrGLs5rR5gLU58" target="_blank">
+    NEFC Park, Mendon</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0608') {
+    document.getElementById("gameday").innerHTML = `Wednesday, June 8 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0609') {
+    document.getElementById("gameday").innerHTML = `Thursday, June 9 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+
+    <h4>Maxim: Scorpions tryout</h4>
+    <p>6:00 pm - 7:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0610') {
+    document.getElementById("gameday").innerHTML = `Friday, June 10 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0611') {
+    document.getElementById("gameday").innerHTML = `Saturday, June 11 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town away game</h4>
+    <p>Holliston B7/8 Dufault at Framingham Bloody Sharks</p>
+    <p>4:00 pm - 5:30 pm EDT<br>Arrive by 3:30 pm</p>
+    <a href="https://goo.gl/maps/8tzbXGsWxJ6vrL2i6" target="_blank">
+    99 Merchant Rd, Framingham, MA</a>
+    <p><em>White uniform (Bring red)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic away game</h4>
+    <p>Clinic 14 - Isabelle at Clinic 2 - Fioravanti</p>
+    <p>10:15 am - 11:15 am EDT<br>Arrive by 10:00 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>White uniform</em></p>
+    `
+  }
+  
+  if (id === '0612') {
+    document.getElementById("gameday").innerHTML = `Sunday, June 12 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
   
 }
