@@ -953,5 +953,92 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '0601') {
+    document.getElementById("gameday").innerHTML = `Wednesday, June 1 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
+  if (id === '0602') {
+    document.getElementById("gameday").innerHTML = `Thursday, June 2 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/yvPjpj5vMP7bQ7Wq8" target="_blank">
+    2450 Main Street, South Walpole, MA, USA</a>
+    <p><em>Gray practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0603') {
+    document.getElementById("gameday").innerHTML = `Friday, June 3 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Town practice</h4>
+    <p>5:00 pm - 6:15 pm EDT</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0604') {
+    document.getElementById("gameday").innerHTML = `Saturday, June 4 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus home game</h4>
+    <p>Premier 2008 Boys vs Juventus Academy Boston Cen Azzuro</p>
+    <p>1:30 pm - 3:00 pm EDT<br>Arrive by 1:00 pm</p>
+    <a href="https://goo.gl/maps/4zUoTDb7WzAt3eax9" target="_blank">
+    Medway High School, Summer Street, Medway, MA</a>
+    <p><em>White uniform (Bring pink)</em></p>
+
+    <hr>
+    
+    <h4>Maxim: Town home game</h4>
+    <p>Holliston B7/8 Dufault vs 	Medfield United 8B</p>
+    <p>2:30 pm - 4:00 pm EDT<br>Arrive by 2:00 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field 2</a>
+    <p><em>Red uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Clinic home game</h4>
+    <p>Clinic 14 - Isabelle vs Clinic 13 - Mason</p>
+    <p>11:30 am - 12:30 pm EDT<br>Arrive by 11:15 am</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Red uniform</em></p>
+    `
+  }
+  
+  if (id === '0605') {
+    document.getElementById("gameday").innerHTML = `Sunday, June 5 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Juventus away game</h4>
+    <p>Premier 2008 Boys at Real Boston FC RBFC Everton boys 2008</p>
+    <p>9:00 am - 10:30 am EDT<br>Arrive by 8:30 am</p>
+    <a href="https://goo.gl/maps/7eP6NBU9hi4TUDLo7" target="_blank">
+    The Rivers School, Winter Street, Weston, MA</a>
+    <p><em>Pink uniform (Bring white)</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
   
 }
