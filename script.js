@@ -1150,5 +1150,78 @@ sampleOnClick = (id) => {
     `
   }
 
-  
+  if (id === '0909') {
+    document.getElementById("gameday").innerHTML = `Friday, September 9 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Technical training</h4>
+    <p>7:15 pm - 8:30 pm EDT</p>
+    <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
+    NEFC Training Center - Northborough, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0923') {
+    document.getElementById("gameday").innerHTML = `Friday, September 23 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Technical training</h4>
+    <p>7:15 pm - 8:30 pm EDT</p>
+    <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
+    NEFC Training Center - Northborough, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '1007') {
+    document.getElementById("gameday").innerHTML = `Friday, October 7 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Technical training</h4>
+    <p>7:15 pm - 8:30 pm EDT</p>
+    <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
+    NEFC Training Center - Northborough, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '1021') {
+    document.getElementById("gameday").innerHTML = `Friday, October 21 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Technical training</h4>
+    <p>7:15 pm - 8:30 pm EDT</p>
+    <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
+    NEFC Training Center - Northborough, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '1104') {
+    document.getElementById("gameday").innerHTML = `Friday, November 4 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: NEFC Technical training</h4>
+    <p>7:15 pm - 8:30 pm EDT</p>
+    <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
+    NEFC Training Center - Northborough, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
 }
