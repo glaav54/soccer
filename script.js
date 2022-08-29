@@ -1254,7 +1254,7 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Sunday, September 4 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: HHS Soccer Family Picnic and Team Photos</h4>
-    <p>4:30 pm - 6:30 pm EDT</p>
+    <p>5:00 pm - 6:30 pm EDT</p>
     <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
     Stoddard Park, Holliston, MA</a>
     <p><em>Red Holliston uniform</em></p>
