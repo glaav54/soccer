@@ -1257,7 +1257,7 @@ sampleOnClick = (id) => {
     <p>4:30 pm - 6:30 pm EDT</p>
     <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
     Stoddard Park, Holliston, MA</a>
-    <p><em>WRed Holliston uniform</em></p>
+    <p><em>Red Holliston uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
