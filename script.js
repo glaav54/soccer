@@ -1150,6 +1150,133 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '0829') {
+    document.getElementById("gameday").innerHTML = `Monday, August 29 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>3:00 pm - 4:40 pm EDT</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0830') {
+    document.getElementById("gameday").innerHTML = `Tuesday, August 30 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>3:00 pm - 4:30 pm EDT</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (optional)</h4>
+    <p>7:30 pm - 9:00 pm EDT</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0831') {
+    document.getElementById("gameday").innerHTML = `Wednesday, August 31 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>TBD</p>
+    <a href="#" target="_blank">
+    TBD</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (optional)</h4>
+    <p>7:30 pm - 9:00 pm EDT</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0901') {
+    document.getElementById("gameday").innerHTML = `Thursday, September 1 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0902') {
+    document.getElementById("gameday").innerHTML = `Friday, September 2 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>TBD</p>
+    <a href="#" target="_blank">
+    TBD</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0903') {
+    document.getElementById("gameday").innerHTML = `Saturday, September 3 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0904') {
+    document.getElementById("gameday").innerHTML = `Sunday, September 4 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS Soccer Family Picnic and Team Photos</h4>
+    <p>4:30 pm - 6:30 pm EDT</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>WRed Holliston uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0905') {
+    document.getElementById("gameday").innerHTML = `Monday, September 5 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
   if (id === '0909') {
     document.getElementById("gameday").innerHTML = `Friday, September 9 2022`
     document.getElementById("maxim").innerHTML = `
