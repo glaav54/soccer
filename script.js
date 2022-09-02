@@ -1227,9 +1227,9 @@ sampleOnClick = (id) => {
     document.getElementById("gameday").innerHTML = `Friday, September 2 2022`
     document.getElementById("maxim").innerHTML = `
     <h4>Maxim: HHS JV2 Practice</h4>
-    <p>TBD</p>
-    <a href="#" target="_blank">
-    TBD</a>
+    <p>4:30 pm - 5:30 pm EDT</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
     <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     `
     document.getElementById("daniel").innerHTML = `
