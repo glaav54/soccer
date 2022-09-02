@@ -1276,6 +1276,52 @@ sampleOnClick = (id) => {
     <p></p>
     `
   }
+
+  if (id === '0906') {
+    document.getElementById("gameday").innerHTML = `Tuesday, September 6 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>TBD</p>
+    <a href="#" target="_blank">
+    TBD</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (optional)</h4>
+    <p>7:30 pm - 9:00 pm EDT</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0907') {
+    document.getElementById("gameday").innerHTML = `Wednesday, September 7 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>TBD</p>
+    <a href="#" target="_blank">
+    TBD</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (optional)</h4>
+    <p>7:30 pm - 9:00 pm EDT</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
   
   if (id === '0909') {
     document.getElementById("gameday").innerHTML = `Friday, September 9 2022`
