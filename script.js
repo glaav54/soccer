@@ -1280,16 +1280,16 @@ sampleOnClick = (id) => {
   if (id === '0906') {
     document.getElementById("gameday").innerHTML = `Tuesday, September 6 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: HHS JV2 Practice</h4>
-    <p>TBD</p>
-    <a href="#" target="_blank">
-    TBD</a>
+    <h4>Maxim: HHS JV2 Practice (choose one)</h4>
+    <p>4:15 pm - 5:45 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
     <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     
     <hr>
    
-    <h4>Maxim: NEFC Practice (optional)</h4>
-    <p>7:30 pm - 9:00 pm EDT</p>
+    <h4>Maxim: NEFC Practice (choose one)</h4>
+    <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
     <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
     NEFC Park - Mendon, MA</a>
     <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
@@ -1303,19 +1303,37 @@ sampleOnClick = (id) => {
   if (id === '0907') {
     document.getElementById("gameday").innerHTML = `Wednesday, September 7 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: HHS JV2 Practice</h4>
-    <p>TBD</p>
-    <a href="#" target="_blank">
-    TBD</a>
+    <h4>Maxim: HHS JV2 Practice (choose one)</h4>
+    <p>4:15 pm - 5:45 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
     <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     
     <hr>
    
-    <h4>Maxim: NEFC Practice (optional)</h4>
-    <p>7:30 pm - 9:00 pm EDT</p>
+    <h4>Maxim: NEFC Practice (choose one)</h4>
+    <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
     <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
     NEFC Park - Mendon, MA</a>
     <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: HYSA Practice</h4>
+    <p>5:30 pm - ??? pm EDT<br>Arrive by 5:20 pm</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+  }
+
+  if (id === '0908') {
+    document.getElementById("gameday").innerHTML = `Thursday, September 8 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>4:15 pm - 5:45 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
@@ -1331,6 +1349,34 @@ sampleOnClick = (id) => {
     <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
     NEFC Training Center - Northborough, MA</a>
     <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0910') {
+    document.getElementById("gameday").innerHTML = `Saturday, September 10 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel:HYSA Game</h4>
+    <p>TBD</p>
+    <p>TBD EDT<br>Arrive by TBD</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Reversible HYSA uniform</em></p>
+    `
+  }
+
+  if (id === '0911') {
+    document.getElementById("gameday").innerHTML = `Sunday, September 11 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
