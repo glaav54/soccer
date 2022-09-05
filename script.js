@@ -1292,7 +1292,7 @@ sampleOnClick = (id) => {
     <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
     <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
     NEFC Park - Mendon, MA</a>
-    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
@@ -1315,7 +1315,7 @@ sampleOnClick = (id) => {
     <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
     <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
     NEFC Park - Mendon, MA</a>
-    <p><em>Gray/Black/Black NEFC Training Uniform</em></p>
+    <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: HYSA Practice</h4>
@@ -1348,7 +1348,7 @@ sampleOnClick = (id) => {
     <p>7:15 pm - 8:30 pm EDT</p>
     <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
     NEFC Training Center - Northborough, MA</a>
-    <p><em>Practice uniform</em></p>
+    <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
