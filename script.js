@@ -1363,7 +1363,7 @@ sampleOnClick = (id) => {
     <p></p>
     `
     document.getElementById("daniel").innerHTML = `
-    <h4>Daniel:HYSA Game</h4>
+    <h4>Daniel: HYSA Game</h4>
     <p>B1/2 - Aud	B1/2 - Gogineni</p>
     <p>1:00 pm - 2:00 pm EDT<br>Arrive by 12:45 pm</p>
     <a href="https://goo.gl/maps/m4hoKty47Ubeekzj8" target="_blank">
