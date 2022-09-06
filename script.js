@@ -1364,11 +1364,11 @@ sampleOnClick = (id) => {
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel:HYSA Game</h4>
-    <p>TBD</p>
-    <p>TBD EDT<br>Arrive by TBD</p>
-    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
-    Stoddard Park, Holliston, MA</a>
-    <p><em>Reversible HYSA uniform</em></p>
+    <p>B1/2 - Aud	B1/2 - Gogineni</p>
+    <p>1:00 pm - 2:00 pm EDT<br>Arrive by 12:45 pm</p>
+    <a href="https://goo.gl/maps/m4hoKty47Ubeekzj8" target="_blank">
+    Weston Pond, Holliston, MA</a>
+    <p><em>Red HYSA uniform</em></p>
     `
   }
 
