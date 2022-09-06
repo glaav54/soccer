@@ -1280,7 +1280,7 @@ sampleOnClick = (id) => {
   if (id === '0906') {
     document.getElementById("gameday").innerHTML = `Tuesday, September 6 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: HHS JV2 Practice (choose one)</h4>
+    <h4>Maxim: HHS JV2 Practice (CANCELLED ???)</h4>
     <p>4:15 pm - 5:45 pm EDT<br>Arrive by 4:00 pm</p>
     <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
     Holliston High School</a>
@@ -1289,7 +1289,7 @@ sampleOnClick = (id) => {
     <hr>
    
     <h4>Maxim: NEFC Practice (choose one)</h4>
-    <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
+    <p>7:15 pm - 8:30 pm EDT<br>Arrive by 7:00 pm</p>
     <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
     NEFC Park - Mendon, MA</a>
     <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
