@@ -1503,14 +1503,138 @@ sampleOnClick = (id) => {
     `
   }
 
+  if (id === '0919') {
+    document.getElementById("gameday").innerHTML = `Monday, September 19 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>4:15 pm - 5:30 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0920') {
+    document.getElementById("gameday").innerHTML = `Tuesday, September 20 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice (choose one)</h4>
+    <p>4:15 pm - 5:30 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (choose one)</h4>
+    <p>7:15 pm - 8:30 pm EDT<br>Arrive by 7:00 pm</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0921') {
+    document.getElementById("gameday").innerHTML = `Wednesday, September 21 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: Memorial - No Practice</h4>
+    <p>TBD pm EDT</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Red HYSA uniform</em></p>
+        
+    <hr>
+   
+    <h4>Maxim: NEFC Practice (optional)</h4>
+    <p>7:30 pm - 9:00 pm EDT<br>Arrive by 7:15 pm</p>
+    <a href="https://goo.gl/maps/8yKvjXpCMw7UCYxB8" target="_blank">
+    NEFC Park - Mendon, MA</a>
+    <p><em>Gray/Black/Black NEFC Practice Uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: HYSA Practice</h4>
+    <p>5:30 pm - 6:30 pm EDT<br>Arrive by 5:20 pm</p>
+    <a href="https://goo.gl/maps/GwrB5JEbJxrXNJGH7" target="_blank">
+    Stoddard Park, Holliston, MA</a>
+    <p><em>Practice uniform</em></p>
+    `
+  }
+
+  if (id === '0922') {
+    document.getElementById("gameday").innerHTML = `Thursday, September 22 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Practice</h4>
+    <p>4:15 pm - 5:30 pm EDT<br>Arrive by 4:00 pm</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>Practice uniform, cleats, running shoes, ball</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+  
   if (id === '0923') {
     document.getElementById("gameday").innerHTML = `Friday, September 23 2022`
     document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: HHS JV2 Game at Ashland High School JV2 </h4>
+    <p>4:00 pm - 5:30 pm EDT<br> Bus Leaves at 3:15 pm from HHS</p>
+    <a href="https://goo.gl/maps/gXr2bjG9LQrATPhJ7" target="_blank">
+    Holliston High School</a>
+    <p><em>White uniform, cleats, running shoes, ball</em></p>
+        
+    <hr>
+    
     <h4>Maxim: NEFC Technical training</h4>
     <p>7:15 pm - 8:30 pm EDT</p>
     <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
     NEFC Training Center - Northborough, MA</a>
     <p><em>Practice uniform</em></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: No events</h4>
+    <p></p>
+    `
+  }
+
+  if (id === '0924') {
+    document.getElementById("gameday").innerHTML = `Saturday, September 24 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
+    `
+    document.getElementById("daniel").innerHTML = `
+    <h4>Daniel: Graham Birthday (Choose one)</h4>
+    <p>B1/2 - Shaw	B1/2 - Aud</p>
+    <p>2:00 pm - 4:00 pm EDT<br>Arrive by 1:45 pm</p>
+    <a href="https://goo.gl/maps/Rb7MWTz97fq9k3HNA" target="_blank">
+    Teamworks, Northborough, MA</a>
+    <p><em>White HYSA uniform</em></p>
+    
+    <hr>
+    
+    <h4>Daniel: HYSA Game (Choose one)</h4>
+    <p>B1/2 - Shaw	B1/2 - Aud</p>
+    <p>1:00 pm - 2:00 pm EDT<br>Arrive by 12:45 pm</p>
+    <a href="https://goo.gl/maps/m4hoKty47Ubeekzj8" target="_blank">
+    Weston Pond, Holliston, MA</a>
+    <p><em>White HYSA uniform</em></p>
+    `
+  }
+
+  if (id === '0925') {
+    document.getElementById("gameday").innerHTML = `Sunday, September 25 2022`
+    document.getElementById("maxim").innerHTML = `
+    <h4>Maxim: No events</h4>
+    <p></p>
     `
     document.getElementById("daniel").innerHTML = `
     <h4>Daniel: No events</h4>
