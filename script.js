@@ -1577,8 +1577,11 @@ sampleOnClick = (id) => {
     <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     `
     document.getElementById("daniel").innerHTML = `
-    <h4>Daniel: No events</h4>
-    <p></p>
+    <h4>Daniel: NEFC Junior Academy</h4>
+    <p>4:30 pm - 5:30 pm EDT<br>Arrive by 4:20 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field, Holliston, MA</a>
+    <p><em>Practice uniform</em></p>
     `
   }
   
@@ -1716,8 +1719,11 @@ sampleOnClick = (id) => {
     <p><em>Practice uniform, cleats, running shoes, ball</em></p>
     `
     document.getElementById("daniel").innerHTML = `
-    <h4>Daniel: No events</h4>
-    <p></p>
+    <h4>Daniel: NEFC Junior Academy</h4>
+    <p>4:30 pm - 5:30 pm EDT<br>Arrive by 4:20 pm</p>
+    <a href="https://goo.gl/maps/nVotz7KCnmRRkb2UA" target="_blank">
+    Marshall field, Holliston, MA</a>
+    <p><em>Practice uniform</em></p>
     `
   }
   
