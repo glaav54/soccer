@@ -1785,15 +1785,26 @@ sampleOnClick = (id) => {
   if (id === '1021') {
     document.getElementById("gameday").innerHTML = `Friday, October 21 2022`
     document.getElementById("maxim").innerHTML = `
-    <h4>Maxim: NEFC Technical training</h4>
+    <h4>Maxim: NEFC Technical training (Choose one)</h4>
     <p>7:15 pm - 8:30 pm EDT</p>
     <a href="https://goo.gl/maps/SKoiiUvufEhCoJBXA" target="_blank">
     NEFC Training Center - Northborough, MA</a>
     <p><em>Practice uniform</em></p>
+
+    <hr>
+
+    <h4>Maxim: Boston College vs North Carolina University (Choose one)</h4>
+    <p>6:00 pm - 8:00 pm EDT<br>Arrive by 5:45 pm</p>
+    <a href="https://goo.gl/maps/rd9nCR8AG6H9Q4mc6" target="_blank">
+    Boston College - Newton Campus</a>
+    <p><em>NEFC Gear</em></p>
     `
     document.getElementById("daniel").innerHTML = `
-    <h4>Daniel: No events</h4>
-    <p></p>
+    <h4>Daniel: Boston College vs North Carolina University (Optional)</h4>
+    <p>6:00 pm - 8:00 pm EDT<br>Arrive by 5:45 pm</p>
+    <a href="https://goo.gl/maps/rd9nCR8AG6H9Q4mc6" target="_blank">
+    Boston College - Newton Campus</a>
+    <p><em>NEFC Gear</em></p>
     `
   }
 
